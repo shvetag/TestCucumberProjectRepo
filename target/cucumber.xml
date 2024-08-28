@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.264" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Application Login" name="F1 Admin page default login" time="0.009">
+<system-out><![CDATA[
+Given Setup entries in the DB...............................................passed
+When Launch the browser from the config variable............................passed
+And hit the home page url of banking site...................................passed
+Given User is on Net Banking Landing Page...................................passed
+When User login into application with username "admin" and password "pass123".passed
+Then Home page is displayed.................................................passed
+And Cards are displayed.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="F1 User page default login" time="0.002">
+<system-out><![CDATA[
+Given Setup entries in the DB...............................................passed
+When Launch the browser from the config variable............................passed
+And hit the home page url of banking site...................................passed
+Given User is on Net Banking Landing Page...................................passed
+When User login into application with username "user1" and password 123.....passed
+Then Home page is displayed.................................................passed
+And Cards are displayed.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="F1 Admin page default Signup" time="0.007">
+<system-out><![CDATA[
+Given Setup entries in the DB...............................................passed
+When Launch the browser from the config variable............................passed
+And hit the home page url of banking site...................................passed
+Given User is on Practice Landing Page......................................passed
+When User sign into application.............................................passed
+Then Home page is displayed.................................................passed
+And Cards are displayed.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="F2 Admin login" time="0.003">
+<system-out><![CDATA[
+When Launch the browser from the config variable............................passed
+And hit the home page url of banking site...................................passed
+Given User is on Net Banking Landing Page...................................passed
+When User login into application with username "admin" and password "pass123".passed
+Then Home page is displayed.................................................passed
+And Cards are displayed.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="F2 Net Banking User login" time="0.003">
+<system-out><![CDATA[
+When Launch the browser from the config variable............................passed
+And hit the home page url of banking site...................................passed
+Given User is on Net Banking Landing Page...................................passed
+When User login into application with username "user1" and password 123.....passed
+Then Home page is displayed.................................................passed
+And Cards are displayed.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="F2 Admin Signup" time="0.009">
+<system-out><![CDATA[
+When Launch the browser from the config variable............................passed
+And hit the home page url of banking site...................................passed
+Given User is on Practice Landing Page......................................passed
+When User sign into application.............................................passed
+Then Home page is displayed.................................................passed
+And Cards are displayed.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
