@@ -9,7 +9,7 @@ public class hooks {
 	public void netBankingSetup()
 	{
 		System.out.println("*************************************");
-			System.out.println("Set up entries in Netbanking database");
+			System.out.println("Set up entries in Netbanking database.");
 	}
 	
 	@After 
@@ -17,6 +17,8 @@ public class hooks {
 	{
 		System.out.println("clear the entries");
 		System.out.println("*************************************");
+		System.out.println("*************************************");
+		//this line added by owner
 	
 	}
 	

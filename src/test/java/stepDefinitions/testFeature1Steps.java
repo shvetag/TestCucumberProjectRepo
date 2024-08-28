@@ -23,6 +23,8 @@ public class testFeature1Steps {
 		System.out.println("Testing of Cucumber project with git");
 		System.out.println("This change is made through cloned project i.e. TestCucumberProject");
 		System.out.println("Testing of Cucumber project with gitHub");
+		System.out.println("This code i have added through Test Cucumber Project Sample 1");
+		System.out.println("This is the original project owner");
 		//Assert.assertTrue(false);
 	}
 	

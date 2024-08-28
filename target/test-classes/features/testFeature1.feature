@@ -1,5 +1,5 @@
 
-Feature: Application Login
+Feature: Application Login Scenario
  
  
 Background: 
