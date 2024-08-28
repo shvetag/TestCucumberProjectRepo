@@ -21,6 +21,8 @@ public class testFeature1Steps {
 		System.out.println("User landed on practice page");
 		System.out.println("This change is made through cloned project i.e. CucumberAutomationDemo");
 		System.out.println("Testing of Cucumber project with git");
+		System.out.println("This change is made through cloned project i.e. TestCucumberProject");
+		System.out.println("Testing of Cucumber project with gitHub");
 		//Assert.assertTrue(false);
 	}
 	
